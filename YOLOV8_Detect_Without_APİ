@@ -1,0 +1,4 @@
+!pip install ultralytics
+from ultralytics import YOLO
+
+!yolo task=detect mode=train model=yolov8l.pt data=../content/drive/MyDrive/deneme.v1i.yolov8/data.yaml epochs=10 imgsz=640
